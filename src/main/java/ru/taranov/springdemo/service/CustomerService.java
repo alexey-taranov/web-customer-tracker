@@ -1,10 +1,10 @@
-package ru.taranov.springdemo.dao;
+package ru.taranov.springdemo.service;
 
 import ru.taranov.springdemo.entity.Customer;
 
 import java.util.List;
 
-public interface CustomerDAO {
+public interface CustomerService {
 
     public List<Customer> getCustomers();
 
